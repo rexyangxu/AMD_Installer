@@ -98,6 +98,10 @@ case $opt in
 	wget http://download.hiveos.farm/drivers/amdgpu-pro-19.50-967956-ubuntu-18.04.tar.xz
         version="19.50-967956-ubuntu-18.04";break
 	;;
+	"21.30-1286092-ubuntu-18.04")
+	wget https://fichiers.touslesdrivers.com/69444/amdgpu-pro-21.30-1286092-ubuntu-18.04.tar.xz
+        version="21.30-1286092-ubuntu-18.04";break
+	;;
 	"Quit")
 	exit
         break
